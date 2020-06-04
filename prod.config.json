@@ -18,19 +18,35 @@
   },
   "map": {
     "tiles": {
-      "args": ["https://{s}.data.amsterdam.nl/topo_rd/{z}/{x}/{y}.png"],
+      "args": [
+        "https://{s}.data.amsterdam.nl/topo_rd/{z}/{x}/{y}.png"
+      ],
       "options": {
-        "subdomains": ["t1", "t2", "t3", "t4"],
+        "subdomains": [
+          "t1",
+          "t2",
+          "t3",
+          "t4"
+        ],
         "tms": true,
         "attribution": "Kaartgegevens CC-BY-4.0 Gemeente Amsterdam"
       }
     },
     "options": {
       "maxBounds": [
-        [52.294084, 5.008621],
-        [52.322999, 5.063810]
+        [
+          52.294084,
+          5.008621
+        ],
+        [
+          52.322999,
+          5.063810
+        ]
       ],
-      "center": [52.3107404, 5.0322487],
+      "center": [
+        52.3107404,
+        5.0322487
+      ],
       "zoom": 10,
       "maxZoom": 14,
       "minZoom": 9,
@@ -60,7 +76,6 @@
   "IMAGE_ENDPOINT": "https://api.data.amsterdam.nl/signals/signal/image/",
   "FILTERS_ENDPOINT": "https://api.data.amsterdam.nl/signals/v1/private/me/filters/",
   "DEPARTMENTS_ENDPOINT": "https://api.data.amsterdam.nl/signals/v1/private/departments/",
-  "DASHBOARD_ENDPOINT": "https://api.data.amsterdam.nl/signals/experimental/dashboards/1",
   "OVL_KLOKKEN_LAYER": "https://map.data.amsterdam.nl/maps/openbare_verlichting?REQUEST=GetFeature&SERVICE=wfs&OUTPUTFORMAT=application/json;%20subtype=geojson;%20charset=utf-8&Typename=Klokken&version=1.1.0&srsname=urn:ogc:def:crs:EPSG::4326",
   "OVL_VERLICHTING_LAYER": "https://map.data.amsterdam.nl/maps/openbare_verlichting?REQUEST=GetFeature&SERVICE=wfs&OUTPUTFORMAT=application/json;%20subtype=geojson;%20charset=utf-8&Typename=Verlichting&version=1.1.0&srsname=urn:ogc:def:crs:EPSG::4326"
 }
