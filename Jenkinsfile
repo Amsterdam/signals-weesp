@@ -25,7 +25,7 @@ node('BS16 || BS17') {
         stage("Build and push acceptance image") {
             tryStep "build", {
                 docker.withRegistry("${DOCKER_REGISTRY_HOST}",'docker_registry_auth') {
-                    def image = docker.build("ois/signals-amsterdam:${env.BUILD_NUMBER}",
+                    def image = docker.build("ois/signals-weesp:${env.BUILD_NUMBER}",
                     "--shm-size 1G " +
                     "--build-arg BUILD_ENV=acc " +
                     "--build-arg BUILD_NUMBER=${env.BUILD_NUMBER} " +
@@ -51,7 +51,7 @@ node('BS16 || BS17') {
         stage("Build and Push Production image") {
             tryStep "build", {
                 docker.withRegistry("${DOCKER_REGISTRY_HOST}",'docker_registry_auth') {
-                    def image = docker.build("ois/signals-amsterdam:${env.BUILD_NUMBER}",
+                    def image = docker.build("ois/signals-weesp:${env.BUILD_NUMBER}",
                         "--shm-size 1G " +
                         "--build-arg BUILD_ENV=prod " +
                         "--build-arg BUILD_NUMBER=${env.BUILD_NUMBER} " +
