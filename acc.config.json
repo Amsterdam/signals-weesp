@@ -34,7 +34,8 @@
       "zoom": 10,
       "maxZoom": 14,
       "minZoom": 9,
-      "gemeentenaam": "weesp"
+      "gemeentenaam": "weesp",
+      "stadsdeel": "W"
     }
   },
   "theme": {},
