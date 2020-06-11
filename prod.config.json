@@ -55,6 +55,7 @@
     }
   },
   "theme": {},
+  "showVulaanControls": false,
   "ROOT": "https://meldingen.amsterdam.nl/",
   "AUTH_ROOT": "https://api.data.amsterdam.nl/",
   "OIDC_CLIENT_ID": "sia",
