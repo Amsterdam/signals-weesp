@@ -1,0 +1,12 @@
+version: '3.5'
+services:
+  web-container:
+    build:
+      args:
+        - BUILD_ENV=acc
+      context: .
+    environment:
+      - TZ=Europe/Amsterdam
+    ipc: host
+    ports:
+      - "3002:80"
