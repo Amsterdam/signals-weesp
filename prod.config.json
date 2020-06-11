@@ -38,6 +38,7 @@
     }
   },
   "theme": {},
+  "showVulaanControls": false,
   "ROOT": "https://meldingen.amsterdam.nl/",
   "AUTH_ROOT": "https://api.data.amsterdam.nl/",
   "API_ROOT_MAPSERVER": "https://map.data.amsterdam.nl/",
