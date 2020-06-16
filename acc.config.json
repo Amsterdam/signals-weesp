@@ -1,10 +1,10 @@
 {
   "logo": {
-    "url": null,
-    "width": 0,
-    "height": 0,
-    "smallWidth": 0,
-    "smallHeight": 0
+    "url": "/assets/logos/logo-weesp.svg",
+    "width": "unset",
+    "height": "100%",
+    "smallWidth": "unset",
+    "smallHeight": "100%"
   },
   "sentry": {
     "dsn": "https://3de59e3a93034a348089131aa565bdf4@sentry.data.amsterdam.nl/27"
