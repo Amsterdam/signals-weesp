@@ -50,6 +50,7 @@
       "stadsdeel": "W"
     }
   },
+  "fetchQuestionsFromBackend": false,
   "theme": {},
   "showVulaanControls": false,
   "ROOT": "https://acc.meldingen.amsterdam.nl/",
