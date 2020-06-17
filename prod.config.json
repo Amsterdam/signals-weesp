@@ -1,9 +1,19 @@
 {
-  "logoUrl": null,
-  "logoWidth": 0,
-  "logoHeight": 0,
-  "logoSmallWidth": 0,
-  "logoSmallHeight": 0,
+  "head": {
+    "androidIcon": "/icon_192x192.png",
+    "backgroundColor": "#ffffff",
+    "favicon": "/favicon.png",
+    "iosIcon": "/icon_180x180.png",
+    "statusBarStyle": "default",
+    "themeColor": "#ec0000"
+  },
+  "logo": {
+    "url": "/assets/logos/logo-weesp.svg",
+    "width": "unset",
+    "height": "100%",
+    "smallWidth": "unset",
+    "smallHeight": "100%"
+  },
   "sentry": {
     "dsn": "https://3de59e3a93034a348089131aa565bdf4@sentry.data.amsterdam.nl/27"
   },
@@ -13,6 +23,7 @@
   },
   "language": {
     "siteTitle": "SIA - Signalen Informatievoorziening Amsterdam",
+    "shortTitle": "SIA",
     "footer1": "Bel het Gemeentelijk informatienummer: 14 020",
     "footer2": "op werkdagen van 08.00 tot 18.00 uur."
   },
@@ -39,6 +50,7 @@
       "stadsdeel": "W"
     }
   },
+  "fetchQuestionsFromBackend": false,
   "theme": {},
   "showVulaanControls": false,
   "ROOT": "https://meldingen.amsterdam.nl/",
