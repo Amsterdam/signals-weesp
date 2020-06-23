@@ -13,7 +13,7 @@
     "height": "100%",
     "smallWidth": "unset",
     "smallHeight": "100%",
-    "backOffice": false
+    "skipBackOffice": false
   },
   "sentry": {
     "dsn": "https://3de59e3a93034a348089131aa565bdf4@sentry.data.amsterdam.nl/27"
