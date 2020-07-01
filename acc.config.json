@@ -32,6 +32,7 @@
     "privacy": "https://www.amsterdam.nl/privacy/"
   },
   "map": {
+    "municipality": "weesp",
     "tiles": {
       "args": ["https://{s}.data.amsterdam.nl/topo_rd/{z}/{x}/{y}.png"],
       "options": {
