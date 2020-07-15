@@ -54,8 +54,7 @@
       "center": [52.3107404, 5.0322487],
       "zoom": 10,
       "maxZoom": 14,
-      "minZoom": 9,
-      "stadsdeel": "W"
+      "minZoom": 9
     },
     "optionsBackOffice": {
       "maxZoom": 16,
